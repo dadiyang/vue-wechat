@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import SideBar from "./components/sidebar/SideBar";
+const SideBar = () => require("./components/sidebar/SideBar");
 import { mapActions, mapGetters } from "vuex";
 
 export default {

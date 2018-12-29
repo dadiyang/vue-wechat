@@ -310,7 +310,7 @@ const actions = {
     }
     Notification.requestPermission(function(p) {
       if (p === "granted") {
-        let title = "微客服：" + item.displayName;
+        let title = "新消息：" + item.displayName;
         let notify = new Notification(title, {
           body: item.content,
           tag: item.openId
