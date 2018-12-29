@@ -41,10 +41,17 @@
 
 ## 启动
 
-1. 首次运行先执行 `npm install` 
+1. 首次运行先执行 `npm install`
 2. npm run dev
-3. 浏览器打开 http://127.0.0.1:8080 
+3. 浏览器打开 http://127.0.0.1:8080
 
 # 参考
 
 本项目样式及表情部分功能基于 [Vue-chat](https://github.com/han960619/Vue-chat) 项目改造而来，该项目仿微信页面做得非常细致。
+
+# Buy me a coffee
+
+<center>
+    <img src="./docimg/donation_wx.jpg" width="300"></img>
+    <img src="./docimg/donation_alipay.jpg" width="300"></img>
+</center>
