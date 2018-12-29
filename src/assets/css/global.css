@@ -125,6 +125,7 @@ a {
   color: #7e8c8d;
   text-decoration: none;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 li {
@@ -142,8 +143,15 @@ body {
 body {
   -webkit-text-size-adjust: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  /* background-image: url(../images/bg.png); */
   background-size: cover;
+}
+
+body {
+  background: #a5a3a4;
+  background: -moz-linear-gradient(-45deg, #a5a3a4 0%, #e6d4c5 51%, #63696e 100%);
+  background: -webkit-linear-gradient(-45deg, #a5a3a4 0%, #e6d4c5 51%, #63696e 100%);
+  background: linear-gradient(135deg, #a5a3a4 0%, #e6d4c5 51%, #63696e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a5a3a4', endColorstr='#63696e', GradientType=1);
 }
 
 /* 设置滚动条的样式 */
@@ -185,8 +193,4 @@ html,
 body {
   margin: 0;
   padding: 0;
-}
-
-body {
-  background-image: url('../images/bg.png');
 }
