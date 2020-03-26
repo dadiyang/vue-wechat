@@ -11,7 +11,7 @@
     "build-test": "node build/build.test.js"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "element-ui": "^2.4.11",
     "sockjs-client": "^1.3.0",
     "stompjs": "^2.3.3",
